@@ -1,0 +1,29 @@
+*{
+   
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    /* margin: auto; */
+    padding: 1rem;
+    background-color:rgb(205, 0, 0);
+    margin: 4rem auto;
+}
+.user-date{
+    margin: 1rem auto
+}
+.lucky-no {
+    margin: 1rem auto;
+    
+}
+.click{
+    width: 3rem;
+    margin: auto;
+}
+.output{
+    margin: 1rem auto;
+    height: 4rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
