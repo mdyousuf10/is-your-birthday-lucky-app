@@ -11,7 +11,7 @@ buttonClick.addEventListener("click", function clickHandler(){
     checkIfLucky(sum)
    }else{
 
-    output.innerText="get lost"
+    output.innerText="Please enter Valid Inputs."
    }
     
 })
@@ -35,6 +35,6 @@ function checkIfLucky(sum){
         output.innerText = "Your BirthDate is lucky"
     }else{
 
-        output.innerText="Your birthday is not lucky"
+        output.innerText="Your birthday is not that lucky"
     }
 }
