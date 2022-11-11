@@ -2,8 +2,11 @@ let date = document.querySelector(".user-date");
 let number = document.querySelector(".lucky-no");
 let buttonClick = document.querySelector(".click");
 let output = document.querySelector(".output")
+let privacy = document.querySelector(".small")
 
 buttonClick.addEventListener("click", function clickHandler(){
+
+   privacy.innerText="Privacy Note - We are not storing Your Data."
 
    if(number.value){
     let newDate = GetDate(date);
